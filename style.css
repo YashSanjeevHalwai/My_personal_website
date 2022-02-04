@@ -33,9 +33,34 @@
 }
 
 .infoContainer{
-    background-color: rgb(202, 9, 128);
+    background-color: rgb(51, 9, 202);
     height: 78vh;
     width: 80vw;
     margin: 144px auto;
     display: flex;
+    justify-content: space-around;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello{
+    font-size: 85px;
+}
+
+.name{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.about{
+    font-size: 50px;
+}
+
+.devPic img{
+    height: 78vh;
+    
 }
